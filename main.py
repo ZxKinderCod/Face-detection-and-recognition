@@ -3,7 +3,6 @@ import os
 import numpy as np
 import pickle
 from collections import defaultdict
-import time
 
 # Original face detection setup
 face_ref = cv2.CascadeClassifier("face_ref.xml")
